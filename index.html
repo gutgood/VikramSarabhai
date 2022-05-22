@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikram Sarabhai</title>
+    <title id="title">Vikram Sarabhai</title>
     <style>
-
-      #main-container {
-        background: linear-gradient(to top right, #0099cc 0%, #ff00ff 100%);;
+      #main {
+        background: linear-gradient(to top right, #0099cc 0%, #ff00ff 100%);
         font-family: monospace;
         font-size: x-large;
         font-style: italic;
@@ -29,23 +28,44 @@
       }
 
       img {
-        max-width: 100%;
         display: block;
+        max-width: 100%;
         height: auto;
-        margin: 0 auto;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-bottom: 0px;
-        margin-left: auto;
+
+      }
+
+      #img-div {
+
+      }
+
+      #image {
+
+      }
+
+      #img-caption {
+
+      } 
+
+      #tribute-info {
+
+      }
+
+      #tribute-link {
+
+      }
+
+      #title {
+        
       }
     </style>
 </head>
 <body>
-  <div id="main-container">
+  
+  <main id="main">    
    <h1>Dr. Vikram Sarabhai</h1>
     <nav>
      <ul>
-        <li><a href="#about">About</a></li>
+        <li id="tribute-info"><a href="#about">About</a></li>
         <li><a href="#India's first Rocket luncher">India's first Rocket luncher</a></li>
         <li><a href="#scintist">Scientist</a></li>   
 
@@ -53,36 +73,36 @@
     </nav>
 
     <section id="about">
-    <div>
-      <h2>About his core team</h2>
-     <h3><p>Vikram Sarabhai had a team of 2 peoples there name are Dr. Homibaba and Abdul kalam without his team he can't lunch his Rocket.</p></h3> 
-      
       <div>
-       <img src="https://www.bangaloreinsider.com/wp-content/uploads/2019/10/39259-uitabouogt-1565608135.jpg" />
+        <h2>About his core team</h2>
+      <h3><p>Vikram Sarabhai had a team of 2 peoples there name are Dr. Homibaba and Abdul kalam without his team he can't lunch his Rocket.</p></h3> 
+        
+        <div id="img-div">
+          <img src="https://www.bangaloreinsider.com/wp-content/uploads/2019/10/39259-uitabouogt-1565608135.jpg" id="image" />
+          <h3><div id="img-caption">Vikram Sarabhai - #CoolGuy</div></h3>
+        </div>
       </div>
-     <h3><p>Vikram Sarabhai - #CoolGuy</p></h3>
-    </div>
-  </section>
+    </section>
 
-  <section id="India's first Rocket luncher"> 
-    <div>
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlcHHlfwdaRq4Fmax_IsIm8yj1Q2oZlgbGg&usqp=CAU">
-     <h2>Vikram Sarabhai's life</h2>
-     <h3><p>
-        Vikram Sarabhai, in full Vikram Ambalal Sarabhai, (born August 12, 1919, Ahmadabad, India—died December 30, 1971, Kovalam), Indian physicist and industrialist who initiated space research and helped develop nuclear power in India.
-        Sarabhai was born into a family of industrialists.
-      </p></h3>
-    </div>
-  </section>
-
-  <section id="scintist">
-    <div>
-      <img src="https://www.prl.res.in/prl-eng/sites/default/files/images/founder/vikram.jpg" />
+    <section id="India's first Rocket luncher"> 
+      <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlcHHlfwdaRq4Fmax_IsIm8yj1Q2oZlgbGg&usqp=CAU">
+      <h2>Vikram Sarabhai's life</h2>
       <h3><p>
-        He is a best scientist.
-      </p></h3>
-    </div>
-  </section>
-</div>
+          Vikram Sarabhai, in full Vikram Ambalal Sarabhai, (born August 12, 1919, Ahmadabad, India—died December 30, 1971, Kovalam), Indian physicist and industrialist who initiated space research and helped develop nuclear power in India.
+          Sarabhai was born into a family of industrialists.
+        </p></h3>
+      </div>
+    </section>
+
+    <section id="scintist">
+      <div>
+        <img src="https://www.prl.res.in/prl-eng/sites/default/files/images/founder/vikram.jpg" />
+        <h3><p>
+          He is a  <a href="https://en.wikipedia.org/wiki/Vikram_Sarabhai" id="tribute-link" target="_blank"> best scientist</a>
+        </p></h3>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
